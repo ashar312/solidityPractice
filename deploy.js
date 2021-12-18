@@ -2,7 +2,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
  
 const { abi, evm } = require('./compile');
- 
+//Lottery Project
 provider = new HDWalletProvider(
     'apart ancient regret soft farm dilemma size feed oppose list modify income',
     'https://rinkeby.infura.io/v3/38ed1f2a2e9d4292acebe4e474abbf4d'
